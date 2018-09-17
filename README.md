@@ -1,2 +1,1 @@
-# develop
 student-amos repo
