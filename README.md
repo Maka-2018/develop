@@ -1,2 +1,2 @@
 # develop
-student
+student-amos repo
