@@ -5,15 +5,20 @@ public abstract class Figur{
 
 	private Farg farg;
 	private int antalItem;
-	private String namnVara;
+	private String namnProdukt;
 	private double prisStyck;
 	private Kondition kondition;
 
+	/*
+	 * The class is defined as abstract because it can be called from 
+	 * another classes.
+	 */
+	
 	public Figur(String strName, Kondition strKondition, 
 			Farg strFarg, double strPris, int strAntal)
 	{
 		this.farg = strFarg;
-		this.namnVara = strName;
+		this.namnProdukt = strName;
 		this.prisStyck = strPris;
 		this.antalItem = strAntal;
 		this.kondition = strKondition;
